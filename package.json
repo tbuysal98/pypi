@@ -1,0 +1,30 @@
+{
+  "name":         "pypi",
+  "description":  "Client for XMLRPC Python Package Index",
+  "keywords":     "python pypi xmlrpc client",
+  "author":       "x",
+  "version":      "0.1.2",
+  "licenses":     [{
+    "type":       "MIT",
+  }],
+  "engines":      {
+    "node":       ">=0.4.0"
+  },
+  "directories" : {
+    "lib" : "./lib/pypi"
+  },
+  "main" : "./index",
+  "homepage":     "https://github.com/tbuysal98/pypi",
+  "repository":   {
+    "type": "git",
+    "url": "git://github.com/tbuysal98/pypi.git"
+  },
+  "dependencies": {
+    "coffee-script": ">=1.1.1",
+    "xmlrpc": ">=0.8.1"
+  },
+  "devDependencies" : {
+    "underscore" : ">=1.2.1",
+    "jasmine-node": ">=1.0.12"
+  }
+}
